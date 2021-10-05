@@ -4,6 +4,7 @@
     "title": "text",
     "name": "text",
     "body": "text",
+    "phone": "text",
     "url": "text",
     "author": "text",
     "keywords": "text",
@@ -70,7 +71,12 @@
       {
         "field_name": "body",
         "label": "Content"
+      },
+        {
+        "field_name": "phone",
+        "label": "Content"
       }
+
     ],
     "color": "#000000"
   },

@@ -8,7 +8,8 @@
           "tokenizer": "fscrawler_path"
         },
         "icu_analyzer": {
-          "tokenizer": "icu_tokenizer"
+          "tokenizer": "icu_tokenizer",
+          "filter": [ "word_delimiter" ]
         }
       },
       "tokenizer": {
@@ -56,6 +57,7 @@
         "analyzer" : "icu_analyzer",
         "store": true
       },
+      
       "file": {
         "properties": {
           "content_type": {
