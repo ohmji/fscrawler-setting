@@ -8,8 +8,8 @@
           "tokenizer": "fscrawler_path"
         },
         "icu_analyzer": {
-          "tokenizer": "icu_tokenizer",
-          "filter": [ "word_delimiter" ]
+           "tokenizer": "icu_tokenizer",
+           "filter": [ "word_delimiter_graph" ]
         }
       },
       "tokenizer": {
